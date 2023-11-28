@@ -12,7 +12,7 @@ body{
     margin: auto;   
     border-radius: 10px;
     padding: 10px;
-    height: 600px;
+    height: 500px;
     color: white;
    
 }
@@ -43,13 +43,13 @@ body{
 
 .col-6{
     margin: auto;
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction:row ;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     background-color: rgb(84, 103, 103);
     padding: 30px;
 }
@@ -100,9 +100,13 @@ body{
 
 button{
     width: 40%;
-    font-size: 0.60rem;
+    height: 50px;
+    font-size: 2rem;
     
 }
+
+
+
 
 
 
