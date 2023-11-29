@@ -22,5 +22,5 @@ function converter(){
 
   //Executar
   let resultado = parseFloat(ecra.innerHTML) * 0.041;
-  saida.innerHTML = resultado.toFixed(2) + "€.";
+  saida.innerHTML = resultado.toFixed(2) + "(€).";
 }
