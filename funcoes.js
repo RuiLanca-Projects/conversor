@@ -1,5 +1,4 @@
 
-
 let ponto_adicionado = false;
 
 function tecla(caracter){
@@ -10,7 +9,7 @@ function tecla(caracter){
    
     return;
   }
-   
+
   if (caracter === '.') {
     ponto_adicionado = true;
   }
