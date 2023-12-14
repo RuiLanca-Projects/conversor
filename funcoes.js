@@ -1,5 +1,20 @@
+
+
+let = ponto_adicionado = false;
+
 function tecla(caracter){
+  
   let ecra = document.querySelector(".ecra");
+
+  if (caracter === '.' && ponto_adicionado) {
+   
+    return;
+  }
+
+ 
+  if (caracter === '.') {
+    ponto_adicionado = true;
+  }
 
   ecra.innerHTML += caracter;
 
